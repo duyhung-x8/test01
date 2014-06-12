@@ -19,6 +19,7 @@ public class CommunityFragment extends Fragment {
 
         // TODO: Something new
 
+
         return rootView;
     }
 }
