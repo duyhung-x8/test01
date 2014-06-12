@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.lang.System;
+
 public class CommunityFragment extends Fragment {
 	
 	public CommunityFragment(){}
@@ -16,9 +18,7 @@ public class CommunityFragment extends Fragment {
  
         View rootView = inflater.inflate(R.layout.fragment_community, container, false);
 
-
-        // TODO: Something new
-
+        System.out.print("Print out something");
 
         return rootView;
     }
